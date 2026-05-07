@@ -43,7 +43,6 @@ I work across the full agentic-RL stack: agent layer ↔ Rust inference request 
 | PR | Summary |
 | :--- | :--- |
 | [LLM360/miles#11](https://github.com/LLM360/miles/pull/11) **(merged)** | MoE routing-replay correctness: per-row complement padding avoids within-row expert-id duplicates. |
-| [miles#1003](https://github.com/radixark/miles/pull/1003) | Per-rank `all_to_all_single` diagnostics for expert-parallel routing-replay split-size divergence. |
 | [miles#888](https://github.com/radixark/miles/pull/888) | Restart-tolerant session proxy: router restarts (Ray failover, node loss) become transparent to active agents instead of cascading 404s. |
 
 **Agentic RL system design (TITO)**
