@@ -30,7 +30,7 @@ I work across the full agentic-RL stack: agent layer ↔ Rust inference request 
 | [LLM360/sglang#12](https://github.com/LLM360/sglang/pull/12) | PyNCCL | Opt-in PyNCCL transport for the weight-update side group; trainer and rollout containers can ship different `libnccl` versions. Key for facilitating weight updates between trainer engines and inference engines. |
 | [LLM360/sglang#14](https://github.com/LLM360/sglang/pull/14) | InfiniBand verbs | Serialize `ibv_reg_mr` to defend mooncake against an `nvidia-peermem` race that segfaults under concurrent GPU memory registration in SR-IOV VF environments. |
 
-**Cross-stack inference request router (Rust)**
+**Inference request router (Rust)**
 
 | PR | Summary |
 | :--- | :--- |
