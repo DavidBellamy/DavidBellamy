@@ -34,7 +34,7 @@ I work across the full agentic-RL stack: agent layer ↔ Rust inference request 
 
 | PR | Summary |
 | :--- | :--- |
-| [smg#1130](https://github.com/lightseekorg/smg/pull/1130) **(merged)** | `#[serde(flatten)]` catch-all on `ChatCompletionRequest` so engine-specific JSON fields (SGLang's `return_routed_experts` etc.) survive gateway deserialization. Fixes [upstream sglang issue #22740](https://github.com/sgl-project/sglang/issues/22740). |
+| [smg#1130](https://github.com/lightseekorg/smg/pull/1130) | `#[serde(flatten)]` catch-all on `ChatCompletionRequest` so engine-specific JSON fields (SGLang's `return_routed_experts` etc.) survive gateway deserialization. Fixes [upstream sglang issue #22740](https://github.com/sgl-project/sglang/issues/22740). |
 | [smg#1239](https://github.com/lightseekorg/smg/pull/1239) | Mirrors flatten to six chat response structs so `routed_experts` and `completion_token_ids` round-trip end-to-end. |
 | [smg#1238](https://github.com/lightseekorg/smg/pull/1238) | Strip `content-length` in `preserve_response_headers`. Catches a latent defensive bug in body-modification paths. |
 
@@ -42,7 +42,7 @@ I work across the full agentic-RL stack: agent layer ↔ Rust inference request 
 
 | PR | Summary |
 | :--- | :--- |
-| [LLM360/miles#11](https://github.com/LLM360/miles/pull/11) **(merged)** | MoE routing-replay correctness: per-row complement padding avoids within-row expert-id duplicates. |
+| [LLM360/miles#11](https://github.com/LLM360/miles/pull/11) | MoE routing-replay correctness: per-row complement padding avoids within-row expert-id duplicates. |
 | [miles#888](https://github.com/radixark/miles/pull/888) | Restart-tolerant session proxy: router restarts (Ray failover, node loss) become transparent to active agents instead of cascading 404s. |
 
 **Agentic RL system design (TITO)**
