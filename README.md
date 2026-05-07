@@ -9,11 +9,11 @@
 
 ### Hi, I'm David Bellamy.
 
-I am a **Infrastructure Engineer for agentic training** and a Harvard PhD Statistician.
+I am an **Infrastructure Engineer for agentic training** and a Harvard PhD Statistician.
 
 I am currently at Institute of Foundation Models (ifm.ai) building the reinforcement learning infrastructure for agentic training of a frontier-scale model that the team pretrained and midtrained in-house.
 
-My work spans the **entire agentic RL training stack**: per-rollout sandbox runtimes, the agent layer, the Rust inference gateway, the inference engines, and the trainer. Recurring themes include cross-image NCCL weight transport between trainer and rollout engines, disaggregated prefill/decode reliability on multi-rail HGX fabrics, tokenizer-consistent training-on-rollouts (TITO), and per-rollout container orchestration at scale.
+My work spans the **entire agentic RL training stack**: per-rollout sandbox runtimes, the agent layer, the Rust inference request router, the inference engines, the trainer, the reward computation pool, and the orchestration control plane. Prominent themes of my recent work include cross-image NCCL weight transport between trainer and rollout engines, disaggregated prefill/decode reliability on multi-rail HGX fabrics, tokenizer-consistent training-on-rollouts (TITO), and implementing rollout routing replay (https://arxiv.org/abs/2510.11370) for large MoE RL training.
 
 ---
 
