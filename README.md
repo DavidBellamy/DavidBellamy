@@ -19,7 +19,7 @@ My work spans the **entire agentic RL training stack**: per-rollout sandbox runt
 
 ### Selected recent contributions (since March 2026)
 
-I work across the full agentic-RL stack: sandbox runtime → agent layer → Rust inference request router → inference engine ↔ trainer. Recent contributions span every layer.
+I work across the full agentic-RL stack: agent layer ↔ Rust inference request router ↔ inference engine ↔ sandbox runtime ↔ trainer. Recent contributions span every layer.
 
 **Inference-engine internals (vLLM / SGLang)**
 
