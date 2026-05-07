@@ -7,13 +7,15 @@
 
 ### Hi, I'm David Bellamy.
 
-I am a **Post-Training & Reasoning Researcher** and a Harvard PhD Statistician.
+I am a **Infrastructure Engineer for agentic training** and a Harvard PhD Statistician.
 
-I am currently on an engineering sabbatical, building **bare-metal reasoning stacks** to understand the numerics of Reinforcement Learning for LLMs. My focus is on scaling inference-time compute and designing non-parametric value aggregation methods.
+I am currently at Institute of Foundation Models (ifm.ai) building the reinforcement learning infrastructure for agentic training of a frontier-scale model that the team pretrained and midtrained in-house.
 
 ---
 
 ### Featured Projects
+
+A small sample of my old personal work.
 
 | Project | Description | Stack |
 | :--- | :--- | :--- |
